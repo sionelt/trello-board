@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Box from 'components/box'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Sandbox</header>
-    </div>
+    <Box height="100vh">
+      <header>Sandbox</header>
+    </Box>
   )
 }
 

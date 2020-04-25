@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface Props extends React.CSSProperties {
-  children: React.ReactElement
+  children: React.ReactNode
 }
 
 export default function Box({children, ...styleProps}: Props) {
